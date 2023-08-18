@@ -2,7 +2,7 @@ from web3 import Web3
 import time
 
 # Connect to Ganache
-ganache_url = "http://127.0.0.1:7545"  # Ganache's default URL
+ganache_url = "https://sepolia.infura.io/v3/087c45ae45bf42bc91c8b07e02fd5d4d"  # Ganache's default URL
 web3 = Web3(Web3.HTTPProvider(ganache_url))
 
 class Account():
